@@ -9,18 +9,24 @@
     margin: 15px;
     padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Rounded corners for a card-like appearance */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .news-item:hover {
-    transform: scale(1.05); /* Slightly enlarge the item on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover for a lifting effect */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .news-item h2 {
     font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.news-item .news-source {
+    font-size: 14px;
+    color: #999; /* Gray color for the source */
     margin-bottom: 10px;
 }
 
