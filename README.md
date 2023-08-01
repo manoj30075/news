@@ -4,4 +4,4 @@
 
 ### This project is built using React, Redux.
 
-### To run the project clone the project and do npm start
+#### To run the project clone the project and do npm start
